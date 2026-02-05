@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+#hero {
+	background-image: url("images/bacolod-government-center.png");
+	background-size: cover;
+	padding: 200px 0px 100px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+#hero-title {
+	background: #0032A0;
+	padding: 10px 20px;
+	color: #F5F3F5;
+	text-align: start;
+}
+
+#hero-subtitle {
+	background: #F5F3F5;
+	color: #0032A0;
+	padding: 10px 20px;
+	margin-top: 0;
+}
+
+.img-activities {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+p {
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#activities {
+	display: flex;
+	justify-content: space-evenly;
+	background: #F1FAEE;
+	padding-bottom: 50px;
+}
+
+h2 {
+	margin: 0;
+	background: #F1FAEE;
+	padding: 30px 0;
+}
+
+.row {
+	margin: 0 20px;
+	padding: 20px;
+	width: 300px;
+	border-radius: 6px;
+}
+
+.row:hover {
+	background: #D9E3FF;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	width: 400px;
+	background: #D9E3FF;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 6px;
+	border-bottom: 6px solid #0032A0;
+}
+
+#avatar {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 6%;
+}
